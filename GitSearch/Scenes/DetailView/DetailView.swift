@@ -98,17 +98,17 @@ struct DetailView: View {
 	DetailView(
 		repository: Repository(
 			id: 1,
-			name: "GithubApi",
-			description: "This is a description of an awesome GitHub project.",
+			name: "GitSearch",
+			description: "Description",
 			stargazersCount: 1234,
 			forksCount: 321,
-			htmlUrl: "https://github.com/johndoe/awesomeproject",
+			htmlUrl: "https://github.com/kosztid/GitSearch",
 			createdAt: "2025-07-23T09:00:00Z",
 			updatedAt: "2024-07-23T10:45:30Z",
 			owner: Owner(
 				login: "kosztid",
 				avatarUrl: "https://avatars.githubusercontent.com/u/1234567?v=4",
-				htmlUrl: "https://github.com/johndoe"
+				htmlUrl: "https://github.com/kosztid"
 			)
 		)
 	)
