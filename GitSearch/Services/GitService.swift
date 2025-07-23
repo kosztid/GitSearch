@@ -34,7 +34,7 @@ extension GitService: GitServiceProtocol {
 		decoder.keyDecodingStrategy = .convertFromSnakeCase
 		decoder.dateDecodingStrategy = .iso8601
 
-		let result = try decoder.decode(GitHubResponse.self, from: data)
+		let result = try decoder.decode(GitHubApiResponse.self, from: data)
 		return result.items
 	}
 }

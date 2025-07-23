@@ -19,7 +19,3 @@ public struct Owner: Decodable, Hashable {
 	public let avatarUrl: String
 	public let htmlUrl: String
 }
-
-public struct GitHubResponse: Decodable {
-	public let items: [Repository]
-}
